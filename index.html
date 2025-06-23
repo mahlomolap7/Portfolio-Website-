@@ -6,8 +6,21 @@
     <title>Johannes Phoshoko - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
+    <nav>
+        <div class="logo">
+            <h1>Johannes Phoshoko</h1>
+        </div>
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="top">
         <h1>Hello, I'm Johannes Phoshoko</h1>
         <p>Welcome to my portfolio website! Glad to see you here.</p>
     </header>
@@ -17,18 +30,39 @@
         <p>I'm a software developer who started my journey with the FNB app academy 2025. I have a passion for creating innovative solutions. I love working with the latest technologies and continuously improving my skills.</p>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
         <h2>Projects</h2>
-        <ul>
-            <li>Portfolio Webite</li>
-            <li>FNB App Academy Project</li>
-            <li>Calculator App</li>
-            <li>Zoo App</li>
-        </ul>
+        <div class="project-list">
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>This is my personal portfolio website where I showcase my skills and projects.</p>
+                <a href="https://johannes-phoshoko.netlify.app"> target="_blank">
+                    View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>This is my personal portfolio website where I showcase my skills and projects.</p>
+                <a href="#">View Project</a>
+        </div> 
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>This is my personal portfolio website where I showcase my skills and projects.</p>
+                <a href="#">View Project</a>
+            </div>
+
     </section>
 
     <footer>
+        <p>© 2025 Johannes Phoshoko. All rights reserved.</p>
+        <p>Follow me on social media:</p>
         <p>Contact me on: +27 60 337 1925, Email: mahlomolap7@gmail.com</p>
+        <div class="social-media">
+            <a href="https://instagram.com/johannes_phoshoko" target="_blank">Instagram</a>
+            <a href="https://githup.com/mahlomolap7" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/johannes-phoshoko" target="_blank">LinkedIn</a>
+        </div>
     </footer>
 </body>
 </html>
